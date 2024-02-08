@@ -17,3 +17,4 @@ def input_pdf_text(upload_file):
         page=reader.pages[page]
         text+=str(page.extract_text())
     return text
+    
